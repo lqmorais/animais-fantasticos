@@ -46,3 +46,12 @@
 .dropdown-menu li a:hover {
   color: white;
 }
+
+@media (max-width: 700px) {
+  [data-dropdown] .dropdown-menu {
+    display: block;
+    animation: show-up .3s forwards;
+  } 
+}
+
+/* Para que o dropdown esteja ativo ao abrir o menu, evitando bug com os itens abaixo do dropdown. */
